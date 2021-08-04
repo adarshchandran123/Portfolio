@@ -1,0 +1,151 @@
+.head1{
+    width: 50%;
+}
+.head2{
+    width: 50%;
+
+    
+}
+.hed{
+    width: 100%;
+    height: 50px;
+}
+
+#main{
+    background: linear-gradient(to bottom, rgba(0, 9, 10, 0.993), rgba(38, 82, 107, 0.973),rgba(1, 34, 53, 0.973));
+}
+.h1-style{
+    font-weight: bolder;
+    font-family: 'Acme', sans-serif;
+    font-style: italic;
+
+}
+#sec2{
+    width: 100%;
+    height: 100%;
+}
+
+.para{
+    padding-top: 30px;
+    color: white;
+    padding-left: 30px;
+}
+
+.about{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+.name{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    text-decoration: underline;
+    color:white;
+
+}
+.row1{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(to right, rgb(4, 30, 41) , rgb(24, 218, 202));
+    font-size: xx-large;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    border:5px;
+
+
+
+
+
+}
+.container-fluid{
+    padding: 0;
+}
+
+.educate{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: white;
+
+}
+.row3{
+    width: 100%;
+    height: 199px;   
+
+}
+
+.card{
+    margin: auto;
+    
+}
+
+.skill-div{
+    box-sizing: border-box;
+    width: auto;
+    height: 80vh;
+    background-image: url(iStock-523821384.jpg);
+    object-fit: cover;
+    -o-object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+#bg{
+    height: fit-content;
+    width: 100%;
+    background-image: url(flower.jpg);
+    clip-path: inset(0 0 0 0);
+
+
+
+    object-fit: cover;
+    -o-object-fit: cover;
+    margin: auto;
+    
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+
+.card-item{
+    
+    color: rgb(24, 218, 202);
+    background-color: black;
+    margin: auto;
+    
+    
+    
+
+}
+.skill-sec{
+    width: 100%;
+    height: auto;
+    background-image: url(OO0122993-Abstract-Green-wooden-background-design-Vector.jpg);
+}
+
+.form{
+    color: rgb(41, 235, 225);
+    font-weight: bold;
+    font-size: larger;
+}
+
+label.error{
+    color: red;
+    
+}
+
+.card-body{
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.card-img-top{
+    height: 150px;
+}
+
+
+
+
+
+
