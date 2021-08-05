@@ -1,10 +1,10 @@
 $(document).ready(function(){
+    
     $("#signup-form").validate({
         rules:{
             fname:{
                 required:true,
                 
-                         
             },
             lname:{
                 required:true
@@ -14,7 +14,8 @@ $(document).ready(function(){
                 email:true
             },
             message:{
-                required:true
+                required:true,
+                
             }
         },
         messages:{
@@ -23,8 +24,31 @@ $(document).ready(function(){
             email:"please enter email ",
             message:"please text what you need"
             
+        },
+
+        submitHandler:function(form){
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbz9tJc2ce1rPVFUtosAfK7ZQgN4XjadDGdBRdKYUuKXiPshQ4A_8W96QdwQLxHlcrhH/exec",
+                data:$("#signup-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Message submitted successfully")
+                    window.location.reload()
+                },
+                error:function (err){
+                    alert("Something Error")
+                }
+            })
         }
     })
    
  
 })
+
+
+
+
+
+
+        
+    
