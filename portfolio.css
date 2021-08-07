@@ -9,10 +9,12 @@
 .hed{
     width: 100%;
     height: 50px;
+    
 }
 
 #main{
     background: linear-gradient(to bottom, rgba(0, 9, 10, 0.993), rgba(38, 82, 107, 0.973),rgba(1, 34, 53, 0.973));
+   
 }
 .h1-style{
     font-weight: bolder;

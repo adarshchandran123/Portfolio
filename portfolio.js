@@ -52,7 +52,10 @@ $(document).ready(function(){
                 }
             })
         }
-    })
+    }),
+    $('body').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
 
     
 
