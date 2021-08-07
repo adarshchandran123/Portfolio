@@ -4,18 +4,30 @@ $(document).ready(function(){
         rules:{
             fname:{
                 required:true,
+                minlength:3
                 
             },
             lname:{
-                required:true
+                required:true,
+                minlength:2
+                
+                
             },
             email:{
                 required:true,
-                email:true
+                email:true,
+                
             },
             message:{
                 required:true,
+                minlength:10
                 
+            },
+            mobile:{
+                required:true,
+                number:true,
+                minlength:10,
+                maxlength:10
             }
         },
         messages:{
@@ -41,9 +53,16 @@ $(document).ready(function(){
             })
         }
     })
+
+    
+
    
  
 })
+
+
+
+
 
 
 
